@@ -22,6 +22,7 @@ FinanceTracker é uma aplicação backend simples desenvolvida com Spring Boot e
 
 ### Configuração do Banco de Dados
 Certifique-se de ter um banco de dados MySQL em execução e crie um banco de dados chamado financetracker. Atualize o arquivo application.properties com suas credenciais do MySQL:
+
 `spring.jpa.hibernate.ddl-auto=update
 spring.datasource.url=jdbc:mysql://localhost:3306/financetracker
 spring.datasource.username=yourusername
