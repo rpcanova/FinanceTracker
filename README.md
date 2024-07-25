@@ -51,12 +51,15 @@ cd finance-tracker-backend`
 Endpoint: `POST /api/transaction`
 
 Body:
+
+`
 {
     "description": "Grocery shopping",
     "amount": 150.75,
     "type": "EXPENSE",
     "category": "Food"
 }
+`
 
 ### Listar Transações
 Endpoint: `GET /api/transactions`
